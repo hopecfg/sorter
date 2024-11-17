@@ -1,0 +1,24 @@
+# Ignore Node.js dependencies for backend
+node_modules/
+
+# Ignore Node.js logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore environment variables
+.env
+
+# Ignore frontend build folder
+ccsorter-ui/build/
+
+# Ignore dependency folders for frontend
+ccsorter-ui/node_modules/
+
+# Ignore lock files if you use only one package manager
+package-lock.json
+yarn.lock
+
+# Ignore system files
+.DS_Store
+Thumbs.db
